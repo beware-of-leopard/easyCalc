@@ -9,6 +9,8 @@ answer = document.querySelector('#answer');
 function getAnswer(){
 	var finalAnswer = Number(input1.value) + Number(input2.value);
 	answer.textContent = finalAnswer;
+
+	answer.className('.outline');			
 }
 
 submit.addEventListener('click', getAnswer);

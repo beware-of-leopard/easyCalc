@@ -1,0 +1,27 @@
+#answer{
+	font-size: 3em;
+	padding: 10px;
+}
+
+body{
+	background: teal;
+	font-family: georgia;
+}
+
+.wrapper{
+	background: #ddd;
+	padding: 30px;
+	width: 300px;
+	margin: auto;
+	margin-top: 200px;
+	border-radius: 8%;
+	text-align: right;
+}
+
+input{
+	height: 30px;
+}
+
+.outline{
+	border-bottom: 5px dotted orange;
+}
